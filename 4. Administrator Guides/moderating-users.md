@@ -1,0 +1,4 @@
+As you use Rocket.Chat you may attract unwanted users in your community that need moderation. To do this, I recommend doing two things. DeActivating their account so that they don't come back, and creating a permission called "Banned" so that you have a record of their account. 
+Under Administration, click Permissions. Create a New Role labeled Banned. Do not check any permissions for this user role, the user will be moderated and therefore does not need any permissions.
+Under Administration, click Users. Click the user to be moderated, and when the menu appears, click DeActivate. 
+Once the user is DeActivated, go back to Permissions and edit the Users role. Copy the name of the user to be moderated, and then Remove the user from this role by clicking the remove icon. Then click Back to Permissions and click on your Banned role. Paste the user name into the Add User field and click Add. Done.
